@@ -1,9 +1,10 @@
 <p align="center">
-  <img width="auto" height="auto" src="https://github.com/koji/icTrainer/blob/master/top.png">
+  <img width="auto" height="auto" src="https://github.com/koji/icTrainer/blob/master/top.png" style="border: none;
+outline: none;">
 </p>
-image classifier train program
 
 
+### icTrainer is a python module which allows users to train image classifier easily
 
 ## How to Use
 In this gude, we will create a dog/cat image classifier.
