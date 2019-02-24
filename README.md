@@ -1,4 +1,6 @@
-# icTrainer
+<p align="center">
+  <img width="auto" height="160" src="https://github.com/koji/icTrainer/blob/master/top.png">
+</p>
 image classifier train program
 
 
