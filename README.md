@@ -12,8 +12,8 @@ In this gude, we will create a dog/cat image classifier.
 https://icrawler.readthedocs.io/en/latest/   
 
 ```
-$ ictrainer --mode "collect" --keyword "dog" -n 250
-$ ictrainer --mode "collect" --keyword "cat" -n 250
+$ ictrainer --mode collect --keyword dog -n 250
+$ ictrainer --mode collect --keyword cat -n 250
 ```
 You'll have dogs & cats images under `dataset` folder.
 
@@ -23,8 +23,8 @@ In this step, we will change all images size for training. The current input siz
 This step may be mess up images you collected, so you need to check all images manually. In the furture, there will be a function that save your time.  
 
 ```
-$ ictrainer --mode "resize" --target dataset/dog
-$ ictrainer --mode "resize" --target dataset/cat
+$ ictrainer --mode resize --target dog
+$ ictrainer --mode resize --target cat
 ```
 
 ### 3.Create folders for classes
@@ -57,5 +57,5 @@ There are some options we need to put. The most important one is `--classes` whi
 We will use default settings.
 
 ```
-$ ictrainer --mode "train" --classes "cat" "dog" --mname "dogAndcat_"
+$ ictrainer --mode train --classes "cat" "dog" --mname "dogAndcat_"
 ```
