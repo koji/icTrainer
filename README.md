@@ -6,9 +6,11 @@ outline: none;">
 
 ### icTrainer is a python module which allows users to train image classifier easily
 
+Basically, this module is for `python3`
 ## Install
+
 ```
-pip install ictrainer
+$ pip install ictrainer
 ```
 
 ## How to Use
