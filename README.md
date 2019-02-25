@@ -14,13 +14,12 @@ https://icrawler.readthedocs.io/en/latest/
 ```
 $ ictrainer --mode "collect" --search "dog' -n 250
 $ ictrainer --mode "collect" --search "cat' -n 250
-
 ```
 You'll have dogs & cats images under `dataset` folder.
 
 
 ### 2. Resize images
-In this step, we will change all images size for training. The current input size is 256 x 256.
+In this step, we will change all images size for training. The current input size must be `256 x 256`(required).
 This step may be mess up images you collected, so you need to check all images manually. In the furture, there will be a function that save your time.  
 
 ```
