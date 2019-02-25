@@ -43,7 +43,7 @@ This step will be automated in the future.
     ├── train
     │   ├── cat
     │   └── dog
-    └── validation
+    └── val
         ├── cat
         └── dog
 ```
