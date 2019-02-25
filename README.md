@@ -36,7 +36,8 @@ $ ictrainer --mode resize --target cat
 This step, we'll need to create folders and distribute images to `train` & `validation` folder.
 
 #### 3-1. create folders
-Create a couple of folders under dataset.
+Create a couple of folders under dataset.   
+This step will be automated in the future.  
 ```
  dataset
     ├── train
