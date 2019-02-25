@@ -12,8 +12,8 @@ In this gude, we will create a dog/cat image classifier.
 https://icrawler.readthedocs.io/en/latest/   
 
 ```
-$ ictrainer --mode "collect" --search "dog" -n 250
-$ ictrainer --mode "collect" --search "cat" -n 250
+$ ictrainer --mode "collect" --keyword "dog" -n 250
+$ ictrainer --mode "collect" --keyword "cat" -n 250
 ```
 You'll have dogs & cats images under `dataset` folder.
 
