@@ -26,7 +26,7 @@ You'll have dogs & cats images under `dataset` folder.
 
 
 ### 2. Resize images
-In this step, we will change all images size for training. The current input size must be `256 x 256`(required).
+In this step, we will change all images size for training. The current input size must be `320 x 180`(required).
 This step may be mess up images you collected, so you need to check all images manually. In the furture, there will be a function that save your time.  
 
 ```
