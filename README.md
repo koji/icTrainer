@@ -67,3 +67,6 @@ We will use default settings.
 ```
 $ ictrainer --mode train --classes "cat" "dog" --mname "dogAndcat_"
 ```
+
+## code
+This code will be pushed soon. (cleaning up now)
