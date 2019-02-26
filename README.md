@@ -34,6 +34,12 @@ $ ictrainer --mode resize --target dog
 $ ictrainer --mode resize --target cat
 ```
 
+For people want to use resize mode for other thing, you can use reize images with the following command.  
+The folder structure should be the same the above.  
+```
+$ ictrainer --mode resize --target cat --width 480 --height 320
+```
+
 ### 3.Create folders for classes
 This step, we'll need to create folders and distribute images to `train` & `validation` folder.
 
