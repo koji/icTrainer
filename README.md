@@ -72,7 +72,7 @@ $ ictrainer --mode train --classes "cat" "dog" --mname "dogAndcat_"
 This code will be pushed soon. (cleaning up now)
 
 ## pre-train model
-smart device   
+#### `smart device`   
 https://github.com/koji/icTrainer/blob/master/model/smartdevice_epoch30.h5      
 ```
 classes = ['echo', 'echoplus', 'echoshow', 'googlehome', 'googlehomemini', 'nest']   
