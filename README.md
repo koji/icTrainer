@@ -37,7 +37,7 @@ $ ictrainer --mode resize --target cat
 For people want to use resize mode for other thing, you can use reize images with the following command.  
 The folder structure should be the same the above.  
 ```
-$ ictrainer --mode resize --target cat --width 480 --height 320
+$ ictrainer --mode resize --target cat --image_width 480 --image_height 320
 ```
 
 ### 3.Create folders for classes
