@@ -12,6 +12,13 @@ Basically, this module is for `python3`
 ```
 $ pip install ictrainer
 ```
+Also you can install manually.  
+```
+clone repo
+$ git https://github.com/koji/icTrainer.git
+$ cd icTrainer/ictrainer
+$ python setup.py install
+```
 
 ## How to Use
 In this gude, we will create a dog/cat image classifier.
