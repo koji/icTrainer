@@ -3,7 +3,7 @@
 outline: none;">
 </p>
 
-
+[![PyPI version](https://badge.fury.io/py/pypi.svg)](https://pypi.org/project/ictrainer/)
 ### icTrainer is a python module which allows users to train image classifier easily
 
 Basically, this module is for `python3`
