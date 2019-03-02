@@ -56,6 +56,15 @@ def main():
         ic = ImageCollector(keyword, max_num)
         ic.get_images()
         print(Color.CYAN + 'end image collecting mode' + Color.END)
+        print(Color.PURPLE + 'check files size' + Color.END)
+        from .image_size_check import ImageSizeChecker
+        isc = ImageSizeChecker()
+        # check dataset folder
+        folders = os.listdir('dataset')
+        for folder in folders:
+            if folder != '.DS_Store':
+                isc.check_size('dataset/' + folder)
+        print(Color.PURPLE + 'removed 0 size file' + Color.END)
 
     elif mode == 'resize':
         # resize ToDo

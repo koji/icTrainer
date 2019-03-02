@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name="ictrainer",
-      version="0.1.5",
+      version="0.1.6",
       description="cli tool for training your own image classifier with one line command!",
       url="https://github.com/koji/ictrainer",
       author='koji kanao',

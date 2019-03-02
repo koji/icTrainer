@@ -1,7 +1,12 @@
 .DS_Store
-ictrainer/ictrainer/test.py
+
+# ictrainer
 ictrainer/ictrainer/__pycache__
 ictrainer/dist
 ictrainer/ictrainer.egg-info
 ictrainer/bin
 ictrainer/build
+
+# test 
+ictrainer/ictrainer/test
+ictrainer/ictrainer/test.py
