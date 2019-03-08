@@ -81,8 +81,11 @@ We will use default settings.
 $ ictrainer --mode train --classes "cat" "dog" --mname "dogAndcat_"
 ```
 
-## code
-This code will be pushed soon. (cleaning up now)
+## video
+#### `image collecting mode`
+https://www.youtube.com/watch?v=k5r_xrW_cxE   
+
+
 
 ## pre-train model
 #### `smart device`   
