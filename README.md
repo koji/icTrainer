@@ -3,7 +3,7 @@
 outline: none;">
 </p>
 
-
+[![PyPI version](https://badge.fury.io/py/pypi.svg)](https://pypi.org/project/ictrainer/)
 ### icTrainer is a python module which allows users to train image classifier easily
 
 Basically, this module is for `python3`
@@ -11,6 +11,13 @@ Basically, this module is for `python3`
 
 ```
 $ pip install ictrainer
+```
+Also you can install manually.  
+```
+clone repo
+$ git https://github.com/koji/icTrainer.git
+$ cd icTrainer/ictrainer
+$ python setup.py install
 ```
 
 ## How to Use
@@ -74,8 +81,11 @@ We will use default settings.
 $ ictrainer --mode train --classes "cat" "dog" --mname "dogAndcat_"
 ```
 
-## code
-This code will be pushed soon. (cleaning up now)
+## video
+#### `image collecting mode`
+https://www.youtube.com/watch?v=k5r_xrW_cxE   
+
+
 
 ## pre-train model
 #### `smart device`   
