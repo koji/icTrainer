@@ -10,3 +10,6 @@ ictrainer/build
 # test 
 ictrainer/ictrainer/test
 ictrainer/ictrainer/test.py
+
+# test model
+model/test/
