@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="auto" height="auto" src="https://github.com/koji/icTrainer/blob/master/top.png" style="border: none;
+  <img width="auto" height="auto" src="https://github.com/koji/icTrainer/blob/master/assets/top.png?raw=true" style="border: none;
 outline: none;">
 </p>
 
