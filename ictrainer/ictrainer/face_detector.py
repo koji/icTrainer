@@ -23,8 +23,6 @@ class FaceDetector():
 
 
     def crop_faces(self):
-        # get files
-        # print('start cropping')
         pics = self.get_files()
         # print(pics)
         for i, pic in enumerate(pics):
