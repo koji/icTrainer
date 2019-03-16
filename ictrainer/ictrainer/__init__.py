@@ -1,11 +1,9 @@
 import os
 import argparse
-from keras import optimizers
 import numpy as np
 import time
 from .color import Color
 from .const import Const
-from .ictrainer import ICTrainer
 
 # main
 def main():
@@ -74,10 +72,20 @@ def main():
         ir.resize_image(cwd + '/dataset/' + target)
         print(Color.GREEN + 'end image resize mode' + Color.END)
 
+    elif mode == 'face':
+        # face detector
+        from .face_detector import FaceDetector
+        print(Color.YELLOW + 'start detecting faces' + Color.END)
+        fd = FaceDetector(cwd + '/' + target)
+        fd.crop_faces()
+        print(Color.YELLOW + 'end detecting faces' + Color.END)
+        print(Color.RED + 'Please check output folder!!!' + Color.END)
+
     
     elif mode == 'train':
         # mode train train images
-        
+        from keras import optimizers
+        from .ictrainer import ICTrainer
         print(Color.BLUE + 'start training mode' + Color.END)
 
         # create folder for result
