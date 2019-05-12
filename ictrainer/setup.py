@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name="ictrainer",
-      version="0.2.0",
+      version="0.2.1",
       description="cli tool for training your own image classifier with one line command!",
       long_description=open('readme.md').read(),
       long_description_content_type="text/markdown",
