@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="auto" height="auto" src="https://github.com/koji/icTrainer/blob/master/top.png" style="border: none;
+  <img width="auto" height="auto" src="https://github.com/koji/icTrainer/blob/master/assets/top.png?raw=true" style="border: none;
 outline: none;">
 </p>
 
@@ -80,6 +80,16 @@ We will use default settings.
 ```
 $ ictrainer --mode train --classes "cat" "dog" --mname "dogAndcat_"
 ```
+
+
+### 5 Face detection
+From 0.2.0 ictrainer allows you to use face detection. The command is following. This function is using `OpenCV` Cascade filter to detect front faces. When you successfully run this command, ictrainer creates `output` folder and there are faces and something which means still you need check all image by yourself.   
+--mode face    
+--target target folder    
+```
+$ ictrainer --mode face --target dataset/celeb
+```
+
 
 ## video
 #### `image collecting mode`
